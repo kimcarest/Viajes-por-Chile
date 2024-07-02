@@ -24,36 +24,27 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-1">
-      <div class="container px-5">
-        <a class="navbar-brand titulo fs-1" href="#"></a>
-        <img src=".//assets/img/viajes.svg" class="svg d-inline-block align-top" alt="Viajes Chile">Viajes Chile</a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto px-5 nav-list">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Quienes Somos</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Destacados</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Contacto</a>
-            </li>
-          </ul>
+    <nav id="menu" class="navbar fixed-top navbar-expand-lg navbar-dark text-white">
+      <div class="container">
+        <div>
+            <img src="./assets/img/viajes.svg" height="30px" alt="logo">
+            <p class="d-inline-block">Viajes Chile</p>
         </div>
-    </nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <nav class="navbar-nav ms-auto ">
+                <a class="nav-link active p-3" aria-current="page" href="#inicio">Inicio</a>
+                <a class="nav-link p-3 d-none d-md-block" href="#quienes"> Quienes Somos</a>
+                <a class="nav-link p-3" href="#destacadas"> Destacados</a>
+                <a class="nav-link p-3" href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </div>
+
+</nav>
     </div>
 
     <section class="d-none d-md-block">
