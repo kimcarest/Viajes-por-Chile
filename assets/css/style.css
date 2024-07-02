@@ -1,4 +1,5 @@
-body, * {
+body,
+* {
     margin: 0;
     border: 0;
     padding: 0;
@@ -38,7 +39,10 @@ header {
     background: none;
 }
 
-.navbar, #navbarNav, .navbar-collapse, li {
+.navbar,
+#navbarNav,
+.navbar-collapse,
+li {
     background: none;
     margin: 0 30px;
 }
@@ -68,7 +72,9 @@ h4 {
     margin: 30px;
 }
 
-.col1, .col2, .col3 {
+.col1,
+.col2,
+.col3 {
     text-align: justify;
     margin-top: 10px;
     margin-left: 10px;
@@ -87,7 +93,7 @@ h4 {
     color: white;
     background-color: #328998;
     margin-bottom: 50px;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 .card {
@@ -146,9 +152,9 @@ div div div ul li {
 }
 
 #contacto {
-   text-align: center;
-   margin-top: 50px;
-   margin-bottom: 30px; 
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .typeForm-widget {
@@ -176,49 +182,45 @@ div div div ul li {
     margin-right: 20px;
 }
 
-.logotext {
+.logoText {
     padding: 5px;
     float: left;
     color: #ffffff;
 }
 
 @media only screen and (max-width: 576px) {
-    
+
     header {
-background-size: contain;
-background-position: top;
-margin-bottom: 0;
+        background-size: contain;
+        background-position: top;
+        margin-bottom: 0;
     }
 
     h3 {
         margin-top: 0;
     }
 
-   .col1 {
-    text-align: justify;
-    margin: 30px;
-   } 
+    .col1 {
+        text-align: justify;
+        margin: 30px;
+    }
 
-   .col2 {
-text-align: justify;
-margin: 30px;
-   }
+    .col2 {
+        text-align: justify;
+        margin: 30px;
+    }
 
-   .col3 {
-    text-align: justify;
-    margin: 30px;
-   }
+    .col3 {
+        text-align: justify;
+        margin: 30px;
+    }
 
-   .carousel-indicators li {
-display: none;
-   }
+    .carousel-indicators li {
+        display: none;
+    }
 
-   figcaption, .gone {
-    display: none;
-   }
+    figcaption,
+    .gone {
+        display: none;
+    }
 }
-
-
-
-
-
