@@ -25,6 +25,7 @@ Disfrutando el resultado.
 1. No logre encontrar el navbar transparente.
 2. La zona de 'Contacto' no quedo igual a lo solicitado.
 3. Es poco, pero honesto.
+4. Cambio de navbar gracias a una compañera.
 
 
 
