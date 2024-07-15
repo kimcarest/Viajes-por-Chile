@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Cabin", sans-serif;
+}
+h2{
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    margin: 2rem 0 2rem 0;
+}
+
+hr{
+    border-color: white;
+    border-width: 3px;
+}
+nav{
+    backdrop-filter: blur(15px);
+    text-shadow: 10px;
+}
