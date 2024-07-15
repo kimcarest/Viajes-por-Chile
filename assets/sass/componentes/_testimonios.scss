@@ -1,0 +1,30 @@
+.testimonios {
+    color: white;
+    padding: 2rem;
+  }
+  .testimonios__content {
+    justify-content: center;
+    padding-top: 2rem;
+    text-align: center;
+  }
+  .testimonios__content--p {
+    padding-bottom: 3rem;
+    margin: 0 auto;
+    font-style: italic;
+  }
+  .testimonios__content--img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+  }
+  .testimonios__content--nombre {
+    font-size: 26px;
+    padding: 3rem;
+  }
+  
+  .testimonios__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
