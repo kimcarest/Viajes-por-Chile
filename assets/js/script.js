@@ -1,3 +1,6 @@
+import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
+
+
 $(document).ready(function () {
 
 
@@ -77,4 +80,15 @@ $('a[href^="#"]').click(function () {
   });
 
 
+});
+
+$(document).ready(function () {
+    
+  $(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+
+  $("#btnEnviar").click(function () {
+    alert("El correo fue enviado correctamente!");
+  });
 });
